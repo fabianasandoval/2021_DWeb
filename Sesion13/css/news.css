@@ -1,0 +1,28 @@
+#titulo{
+    background-color:red;
+    height: 60px;
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;
+    
+}
+
+img{
+    float: right;
+}
+
+p{
+    font-size: 20px;
+    background-color: rosybrown;
+}
+
+h3{
+    background-color:royalblue ;
+    float: right;
+}
+
+
+
+
+
+

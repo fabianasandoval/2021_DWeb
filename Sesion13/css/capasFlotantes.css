@@ -1,0 +1,18 @@
+header{
+    font-weight: hold;
+    font-size: 50px;
+}
+
+img{
+    float: right;
+}
+
+p{
+    font-size: 20px;
+    background-color: rosybrown;
+}
+
+h3{
+    background-color:royalblue ;
+    float: right;
+}
