@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 200px 400px 200px;
+}
+
+header{
+    grid-area: header;
+    background-color: orange;
+}
+
+nav {
+    grid-area: nav;
+    background-color: blue;
+}
+
+section {
+    grid-area: section;
+    background-color: red;
+}
+
+aside {
+    grid-area: aside;
+    background-color: green;
+}
+
+footer {
+    grid-area: footer;
+    background-color: orange;
+}
