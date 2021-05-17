@@ -4,29 +4,26 @@ header {
 }
 
 nav {
-    background-color: indigo;
+    background-color: yellow;
     width: 25%;
 }
 
 section {
-    background-color: indianred;
+    background-color: violet;
     width: 50%;
 }
 
 aside {
-    background-color: indigo;
+    background-color: skyblue;
     width: 25%;
 }
 
 footer {
     clear: left;
-    background-color: indianred;
-    height: 100px;
+    background-color:coral;
+    height: 200px;
 }
-
-nav,
-aside,
-section {
-    float: left;
+aside, nav, section{
+    float: right;
     height: 350px;
 }

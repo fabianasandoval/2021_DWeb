@@ -1,0 +1,41 @@
+header {
+    background-color: red;
+    height: 100px;
+    text-align: center;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 60px;
+}
+nav{
+    background-color: gray;
+    font-family: verdana;
+    font-size: 20px;
+    height: 20px;  
+}
+input{
+    background-color: grey;
+    color: white;
+    height: 20px;
+    width: 150px;
+    float: left;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: red;
+}
+h3{
+    font-family:sans-serif;
+}
+img{
+    margin: 5px;
+    float: right;
+}
+footer{
+    margin: 5px;
+    float: right;
+    background-color: red;
+    color: white;
+}
