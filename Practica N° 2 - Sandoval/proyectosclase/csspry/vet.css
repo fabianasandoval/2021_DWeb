@@ -1,0 +1,92 @@
+header {
+    height: 301px;
+}
+
+nav {
+    background-color:mediumvioletred;
+    width: 25%;
+    float: right;
+    height: 404px;
+    color: white;
+}
+
+#contenido {
+    background-color: rgb(243, 204, 243);
+    width: 50%;
+    border: indigo;
+    border: 15px solid rgb(88, 2, 122) ;
+    float: right;
+    height: 374px;
+}
+
+aside {
+    background-color: rgb(58, 57, 57);
+    width: 303px;
+    float: left;
+    height: 404px;
+}
+/*-------------------------------------------------------*/
+#foto{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(100, 99, 99);
+}
+#emer{
+    color: red;
+}
+/*-------------------------------------------------------------*/
+
+h3{
+    margin: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;  
+}
+#gris{
+    margin: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+#titulo{
+    margin: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+li{
+    margin: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+p{
+    margin: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+img{
+    margin: 10px;
+    float: right;
+}
+#img1, #img2, #img3{
+    float: left;
+    margin: 15px;
+}
+/*--------------------------------------------------------*/
+/*pie*/
+footer {
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    height: 60px;
+}
+/*--------------------------------------------------------------*/
