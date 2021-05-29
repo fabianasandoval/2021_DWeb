@@ -1,0 +1,41 @@
+h3{
+    background-color:midnightblue;
+    width: 252px;
+    color: white;
+}
+
+span {
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    font-family: calibri;
+}
+
+.nom{
+    background-color:rgb(224, 224, 224); 
+    width: 175px;   
+}
+
+.titu{
+    background-color:skyblue;
+    width: 175px;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+h3{
+    font-family: calibri;
+    font-size: 25px;
+    margin: 5px;
+}
+body{
+    font-family: calibri;
+}
