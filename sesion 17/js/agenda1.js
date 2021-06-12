@@ -11,5 +11,4 @@ function recuperarDatos(){
         document.getElementById("datos").innerHTML = "No existen datos registrados";
     }
 
-    
 }

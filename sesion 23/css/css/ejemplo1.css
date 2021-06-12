@@ -1,0 +1,9 @@
+.pf1::first-letter{
+    font-size: 2rem;
+}
+.pf2::first-letter{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: bolder;
+}
