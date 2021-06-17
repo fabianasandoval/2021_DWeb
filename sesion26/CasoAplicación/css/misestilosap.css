@@ -13,3 +13,10 @@ html, body{
 #cover-texto{
     width: 100%;
 }
+#caja,.card-group{
+    width: 80%;
+    margin: auto;
+}
+#ver{
+    background-color:darkblue;
+}
