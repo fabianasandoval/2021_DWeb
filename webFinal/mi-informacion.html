@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RentCar - Chiclayo</title>
+
+    <!-- Favicon Iconos -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <!-- CSS Global -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/plugins/swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+
+    <!-- Head Libs -->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+</head>
+
+    <!-- INICIO DE PANTALLA DE PRE CARGA -->
+    <body id="home" class="wide">
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div id="preloader-title">Cargando...</div>
+        </div>
+    </div>
+    <!-- /TERMINO DE PANTALLA PANTALLA DE PRE CARGA -->
+
+<!-- INICIO DEL DIV WRAPPER-->
+<div class="wrapper">
+    <!-- INICIO DEL HEADER -  NO TOCAR-->
+    <header class="header fixed">
+        <div class="header-wrapper">
+            <div class="container">
+
+                <!--LOGO-->
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo-rentit.png" alt="RentCar"/></a>
+                </div>
+                <!--/LOGO-->
+                <!--MOBILE MENU-->
+                <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                <!--/MOBILE MENU-->
+
+                <!-- NAVEGADOR-->
+
+                <nav class="navigation closed clearfix">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- NAVEGADOR MENU-->
+                                <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                                <ul class="nav sf-menu">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="vehiculos.html">Vehiculos</a></li>
+                                    <li><a href="reservar.html">Reservar</a></li>
+                                    <li class="active"><a href="contacto.html">Contacto</a></li>
+                                    <li><a href="nosotros.html">Nosotros</a></li>
+                                </ul>
+                                <a class="btn1 btn-theme ripple-effect " href="#">Registrarse</a>
+                                <a class="btn btn-theme ripple-effect " href="#">Ingresar</a>
+                                
+                            <!-- /NAVEGADOR MENU-->
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+               </nav>   
+
+                <!-- /NAVEGADOR-->
+            </div>
+        </div>
+    </header>
+    <!-- /FIN DEL HEADER  - NO TOCAR-->
+
+    <!-- CONTENT AREA-->
+    <div class="content-area">
+       
+      <!-- PAGE -->
+      <section class="page-section contacto">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- /PAGE -->
+       
+        <!-- BREADCRUMBS -->
+        <section class="page-section breadcrumbs text-right">
+            <div class="container">
+                <div class="page-header">
+                    <h1>MI CUENTA</h1>
+                </div>
+                <ul class="breadcrumb">
+                    <li><a href="#">Inicio</a></li>
+                    <li class="active">Mi Cuenta</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="page-section">
+            <div class="container">
+                
+                <div class="tabs awesome wow fadeInUp" data-wow-offset="70" data-wow-delay="500ms">
+                    <ul id="tabs-panel" class="nav">
+                    <li class="active-p"><a>Panel de usuario</a></li>
+                    </ul>
+                </div> 
+                <div class="tabs tabs4 awesome wow fadeInUp" data-wow-offset="70" data-wow-delay="500ms">    
+                    <ul id="tabs4" class="nav"><!--
+                    --><li class="active"><a href="#tab-x1" data-toggle="tab">Mi Información</a></li><!--
+                    --><li class=""><a href="#tab-x2" data-toggle="tab">Mis Reservas</a></li>
+                    </ul>
+                    <ul style="float: right;"> <!--
+                    --><i class="fas fa-edit" style="size:3x;"></i><!--a
+                    --><i class="fas fa-cog"></i><!--
+                    --><li class="btnCerrar"><a>Cerrar sesión</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-content wow fadeInUp" data-wow-offset="70" data-wow-delay="500ms">
+                    <!-- tab 1 -->
+                    <div class="tab-pane active fade in" id="tab-x1">
+                        <h1 id="dp" >DATOS PERSONALES:</h1><br>
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="4">Información Básica</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td id="rg" colspan="2"> Cliente</td>
+                                <td id="izq" colspan="2"> Marco Antonio Padilla Gonzales</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Correo</td>
+                                <td id="izq" colspan="2">marcoantonio@gmail.com</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Teléfono</td>
+                                <td id="izq" colspan="2"> +51 943 464 467</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="4">Documento de identidad</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td id="rg" colspan="2"> Tipo de Documento</td>
+                                <td id="izq" colspan="2"> DNI</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Número de documento</td>
+                                <td id="izq" colspan="2">7203141</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Fecha de Vencimiento</td>
+                                <td id="izq" colspan="2"> 05/06/2027</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="4">Conductor</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td id="rg" colspan="2"> Licencia de conducir</td>
+                                <td id="izq" colspan="2"> A1212134</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Fecha de Vencimiento</td>
+                                <td id="izq" colspan="2">27/02/2023</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="4">Información Básica</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td id="rg" colspan="2"> País</td>
+                                <td id="izq" colspan="2"> Perú</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Ciudad</td>
+                                <td id="izq" colspan="2">Chiclayo</td>
+                              </tr>
+                              <tr>
+                                <td id="rg" colspan="2"> Dirección</td>
+                                <td id="izq" colspan="2"> Av. Grau 212</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+                    <!-- tab 2 -->
+                    <div class="tab-pane tab-pane1 fade in" id="tab-x2">
+                        <h1 id="dp" >Te mostramos las fechas en las que registraste una reserva</h1>
+                        <table class="table-rsv">
+                            <thead>
+                              <tr id="head-table">
+                                <th scope="col">Vehículo</th>
+                                <th scope="col">Fecha de retiro</th>
+                                <th scope="col">Fecha entrada</th>
+                                <th scope="col">Local</th>
+                                <th scope="col">Estado de pago</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr id="veh">
+                                <td>Audi A3 Sportback</td>
+                                <td>14/01/2018</td>
+                                <td>18/01/2018</td>
+                                <td>Chiclayo</td>
+                                <td>Pagado</td>
+                              </tr>
+                              <tr id="veh">
+                                <td>Kia Picanto GT Line</td>
+                                <td>05/06/2016</td>
+                                <td>09/06/2016</td>
+                                <td>José Leonardo Ortiz</td>
+                                <td>Pagado</td>
+                              </tr>
+                              <tr id="veh">
+                                <td>Mercedes Benz - C200 Kit AMG</td>
+                                <td>01/03/2017</td>
+                                <td>06/03/2017</td>
+                                <td>La Victoria</td>
+                                <td>Pagado</td>
+                              </tr>
+                              <tr id="veh">
+                                <td>BMW - 118i M Competition</td>
+                                <td>27/05/2018</td>
+                                <td>29/05/2018</td>
+                                <td>Pimentel</td>
+                                <td>Pagado</td>
+                              </tr>
+                              <tr id="veh">
+                                <td>Ford-Ranger Raptor</td>
+                                <td>20/05/2018</td>
+                                <td>22/05/2018</td>
+                                <td>Chiclayo</td>
+                                <td>Pagado</td>
+                              </tr>
+                              <tr id="veh">
+                                <td>Aston Martin DBX</td>
+                                <td>15/10/2020</td>
+                                <td>16/10/2020</td>
+                                <td>Chiclayo</td>
+                                <td>Por pagar</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        <div class="pagination-wrapper navt">
+                            <ul class="pagination">
+                                <li class="disabled"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /BREADCRUMBS -->
+
+              
+
+        
+
+
+
+            <!-- FOOTER -->
+                <footer class="footer">
+                    <div class="footer-widgets">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-md-5">
+                                    <div class="widget">
+                                        <img src="assets/img/RentCarWhite.png">
+                                        <p style="text-align: justify; width: 70%;">Somos una empresa familiar dedica al servicio de renta de automoviles de última generación. Nos encontramos en varias sucursales dentro de la ciudad de Chiclayo. Síguenos en nuestras redes sociales:</p>
+                                        <ul class="social-icons">
+                                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3">
+                                    <div class="widget widget-categories">
+                                        <h4 class="widget-title">Mapa del Sitio</h4>
+                                        <ul>
+                                            <li><a href="index.html">Inicio</a></li>
+                                            <li><a href="vehiculos.html">Vehiculos</a></li>
+                                            <li><a href="reservar.html">Reservar</a></li>
+                                            <li><a href="nosotros.html">Nosotros</a></li>
+                                            <li><a href="registrarse.html">Registrarse</a></li>
+                                            <li><a href="contacto.html">Contacto</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4    ">
+                                    <div class="widget">
+                                        <h4 class="widget-title">Contáctanos</h4>
+                                        <p><i class="fa fa-map-marker"></i>  Av. Bernardo Alcedo 412</p>
+                                        <p><i class="fa fa-phone"></i>  +51 934 412 248</p>
+                                        <p><i class="fa fa-envelope"></i>atencion@rentcarcix.com</p>
+                                        <button class="btn btn-theme btn-theme-transparent">Asistencia Virtual</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-meta">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="copyright"> FastWeb &copy; 2021 - Todos los derechos reservados a sus respectivos autores.</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            <!-- /FOOTER -->
+
+    </div>
+    <!-- /CONTENT AREA-->
+
+
+
+
+
+
+</div>
+<!-- FIN DEL DIV WRAPPER-->
+
+<!-- JS Global -->
+<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script src="assets/plugins/superfish/js/superfish.min.js"></script>
+<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="assets/plugins/owl-carousel2/owl.carousel.min.js"></script>
+<script src="assets/plugins/jquery.sticky.min.js"></script>
+<script src="assets/plugins/jquery.easing.min.js"></script>
+<script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+<script src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/moment-with-locales.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- JS Page Level -->
+<script src="assets/js/theme-ajax-mail.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+<script src="https://kit.fontawesome.com/396ab600f7.js" crossorigin="anonymous"></script>
+</body>
+</html>
